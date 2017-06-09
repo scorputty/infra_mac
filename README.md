@@ -20,25 +20,25 @@ in vars/main.yml.
 ### Currently auto-installed apps:
 ```yaml
   - ansible
+  - atom
   - autoconf
   - automake
+  - flash-player
+  - google-chrome
+  - iterm2
+  - java
   - packer
+  - pycharm-ce
   - python
   - sqlite
   - ssh-copy-id
-  - terraform
-  - wget
-  - atom
-  - google-chrome
-  - flash-player
-  - java
-  - pycharm-ce
-  - vagrant
-  - vlc
-  - iterm2
   - telegram
-  - virtualbox
+  - terraform
   - torbrowser
+  - vagrant
+  - virtualbox
+  - vlc
+  - wget
 ```
 
 # Notes
