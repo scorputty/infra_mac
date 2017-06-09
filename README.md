@@ -6,7 +6,12 @@ You can use this on a Mac to automatically install free software using
 one command. Having a high degree of automation in the OSX setup of our
 developers proved to be great for new joiners, they are productive in
 less than an hour.
- 
+
+### Run
+```sh
+./install_on_my_mac.sh
+```
+
 ### WARNING The scrips set DNS and proxies and user defaults.
  
 You can add more apps & packages, or uncomment the suggested set,
