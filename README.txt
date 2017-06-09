@@ -1,0 +1,23 @@
+Currently auto-installed apps:
+
+- ansible
+- autoconf
+- automake
+- packer
+- python
+- sqlite
+- ssh-copy-id
+- terraform
+- wget
+- atom
+- google-chrome
+- flash-player
+- java
+- pycharm-ce
+- vagrant
+- vlc
+- iterm2
+- telegram
+- virtualbox
+- torbrowser
+- wimoweh-beta
