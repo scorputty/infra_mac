@@ -14,7 +14,7 @@
   roles:
     - geerlingguy.homebrew
 
- tasks:
-   - include: security.yml
-   - include: defaults.yml
-   - include: network.yml
+  tasks:
+    - include: security.yml
+    - include: defaults.yml
+    - include: network.yml
