@@ -9,10 +9,10 @@
     tags: syncdotdir
 
   # - name: Setting up /syncing bash profile
-  #   command: ls {{ ansible_env.HOME}}
+  #
   #
   # - name: Setting up / syncing git profile
-  #   command: ls {{ ansible_env.HOME}}/dotfiles
+  #
   #
   # - name: Setting up / syncing iTerm2 profile
-  #   command: ls {{ ansible_env.HOME}}/dotfiles
+  #  
