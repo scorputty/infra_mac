@@ -10,5 +10,5 @@
 
   - name: Setup .dotfiles
     command: source "{{ ansible_env.HOME }}/.dotfiles/install.sh"
-
+    tags: setupdotfiles
   # - name: Setting up / syncing iTerm2 profile
