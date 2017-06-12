@@ -1,9 +1,9 @@
 ---
 
-  - name: Create or sync $HOME/dotfiles
+  - name: Create or sync $HOME/.dotfiles
     synchronize:
-      src: dotfiles
-      dest: "{{ ansible_env.HOME }}/.dotfiles"
+      src: .dotfiles
+      dest: "{{ ansible_env.HOME }}"
       delete: yes
       recursive: yes
     tags: syncdotdir
