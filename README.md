@@ -9,8 +9,11 @@ You can use this on a Mac to automatically install free software using
 one command. Having a high degree of automation in the OSX setup is awesome!
 
 # Step 1: Clone this repo
+```sh
+git clone https://github.com/scorputty/infra_mac.git
+```
 
-# Step 2: Edit the files to your preference and username
+# Step 2: Edit the files to your preference
 ### dotfiles
 As an absolute minimum you need to edit the dotfiles/git/.gitconfig.
 ```json
@@ -18,6 +21,11 @@ As an absolute minimum you need to edit the dotfiles/git/.gitconfig.
   name = Firstname Lastname
   email = your email
 ```
+And you might want to change your computer name in file osxsettings.sh to something that makes sense to you.
+```sh
+COMPUTER_NAME="hipstermacbookname"
+```
+
 ### packages and system settings
 You can add more apps & packages in vars/main.yml.
 ### Currently auto-installed apps:
@@ -55,7 +63,7 @@ Review or / and edit osxsettings.sh to your preference.
  
 
 # Notes
-This is work in progress...
+This is work in progress... Ruby GEMS don't update very good, looking in to that.
 
 # Extra info
 ## The `dotfiles` command
