@@ -1,17 +1,14 @@
 ---
 
-  - name: Create or sync $HOME/dotfiles
+  - name: Create or sync $HOME/.dotfiles
     synchronize:
-      src: dotfiles
+      src: .dotfiles
       dest: "{{ ansible_env.HOME }}"
       delete: yes
       recursive: yes
     tags: syncdotdir
 
-  # - name: Setting up / syncing bash profile
-  #
-  #
-  # - name: Setting up / syncing git profile
-  #
-  #
+  - name: Setup .dotfiles
+    command: source "{{ ansible_env.HOME }}"/.dotfiles/install.sh
+
   # - name: Setting up / syncing iTerm2 profile

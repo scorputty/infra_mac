@@ -4,5 +4,5 @@
     command: "sudo languagesetup -langspec English"
     become: true
 
-  - name: "Write NSDefaults using defaults.sh"
-    shell: ./defaults.sh
+  - name: "Write NSDefaults using osxsettings.sh"
+    shell: ./osxsettings.sh
