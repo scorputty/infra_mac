@@ -6,9 +6,13 @@ homebrew_installed_packages:
   - ansible
   - autoconf
   - automake
+  - bash-completion2
+  - coreutils
+  - dockutil
+  - jq
+  - npm
   - packer
   - python
-  - sqlite
   - ssh-copy-id
   - terraform
   - wget

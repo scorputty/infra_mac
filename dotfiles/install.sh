@@ -4,16 +4,10 @@
 
 export DOTFILES_DIR DOTFILES_CACHE EXTRA_DIR
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
-EXTRA_DIR="$HOME/.extra"
 
 # Common functions
 
 . "$DOTFILES_DIR/system/.function"
-
-# Update dotfiles itself first
-
-if is-executable git -a -d "$DOTFILES_DIR/.git"; then git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master; fi
 
 # Bunch of symlinks
 
@@ -26,9 +20,3 @@ ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 # Run tests
 
 if is-executable bats; then bats test/*.bats; else echo "Skipped: tests (missing: bats)"; fi
-
-# Install extra stuff
-
-if [ -d "$EXTRA_DIR" -a -f "$EXTRA_DIR/install.sh" ]; then
-  . "$EXTRA_DIR/install.sh"
-fi
