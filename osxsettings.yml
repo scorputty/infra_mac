@@ -1,7 +1,7 @@
 ---
 
   - name: "Set OSX System language to English"
-    command: "sudo languagesetup -langspec English"
+    command: "languagesetup -langspec English"
     become: true
 
   - name: "Write NSDefaults using osxsettings.sh"

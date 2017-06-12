@@ -16,7 +16,3 @@ ln -sfv "$DOTFILES_DIR/runcom/.inputrc" ~
 ln -sfv "$DOTFILES_DIR/runcom/.gemrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
-
-# Run tests
-
-if is-executable bats; then bats test/*.bats; else echo "Skipped: tests (missing: bats)"; fi

@@ -32,7 +32,7 @@ DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
 
 # Finally we can source the dotfiles (order matters)
 
-for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,alias,completion,grep,prompt,nvm,rvm,custom}; do
+for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,alias,completion,grep,prompt,rvm,custom}; do
   [ -f "$DOTFILE" ] && . "$DOTFILE"
 done
 
@@ -41,10 +41,6 @@ if [ "$OS" = "macOS" ]; then
     [ -f "$DOTFILE" ] && . "$DOTFILE"
   done
 fi
-
-# Set LSCOLORS
-
-eval "$(dircolors "$DOTFILES_DIR"/system/.dir_colors)"
 
 # Clean up
 

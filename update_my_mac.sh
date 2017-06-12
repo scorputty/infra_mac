@@ -17,4 +17,4 @@ sudo gem update —system
 sudo gem update
 
 ## Ansible updates the Mac software using brew, cask & ansible
-ansible-playbook provisioner.yml -i inventory.ini --ask-sudo-pass
+# ansible-playbook provisioner.yml -i inventory.ini --ask-sudo-pass
