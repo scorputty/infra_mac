@@ -87,7 +87,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~</string>
+	<string>~/Pictures/spaceships</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -133,9 +133,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 130 606 456 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>452 267 796 473 0 0 1280 777 </string>
+	<string>184 232 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 405 1234 372 0 0 1280 777 </string>
+	<string>61 67 790 327 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-2048 -309 1270 367 -2048 -736 2048 1513 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1670,6 +1670,10 @@
 	<string>C9DC4EDB-E9CE-4FC5-AF47-17ED33C430D1</string>
 	<key>NoSyncLastTipTime</key>
 	<real>487872218.83616</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1738,7 +1742,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/stef/dotfiles/iterm2_profile</string>
+	<string>~/dotfiles/iterm2</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1760,7 +1764,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-06-07T08:14:31Z</date>
+	<date>2017-06-10T06:15:59Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>

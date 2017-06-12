@@ -43,3 +43,4 @@ in vars/main.yml.
 
 # Notes
 This is work in progress...
+I'm not sure if I incorporate "dotfiles" with this installer yet.

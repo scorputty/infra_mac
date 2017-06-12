@@ -4,15 +4,14 @@
     synchronize:
       src: dotfiles
       dest: "{{ ansible_env.HOME }}"
-      delete: no
+      delete: yes
       recursive: yes
     tags: syncdotdir
 
-  # - name: Setting up /syncing bash profile
+  # - name: Setting up / syncing bash profile
   #
   #
   # - name: Setting up / syncing git profile
   #
   #
   # - name: Setting up / syncing iTerm2 profile
-  #  

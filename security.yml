@@ -3,20 +3,20 @@
 
   - name: "Block snooping in home-dirs"
     shell: chmod 700 /Users/*
-    sudo: yes
+    become: true
 
   - name: "Set permission on /Users/Shared"
     shell: chmod 1777 /Users/Shared
-    sudo: yes
+    become: true
 
   - name: "Set wake-on-lan"
     command: "systemsetup -setwakeonnetworkaccess on"
-    sudo: yes
+    become: true
 
   - name: "Enable Gatekeeper"
     shell: /usr/sbin/spctl --master-enable
-    sudo: yes
+    become: true
 
   - name: "Allow signed apps with Gatekeeper."
     shell:  /usr/sbin/spctl --enable --label 'Developer ID'
-    sudo: yes
+    become: true
