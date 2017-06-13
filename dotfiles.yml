@@ -4,7 +4,7 @@
     synchronize:
       src: dotfiles
       dest: "{{ ansible_env.HOME }}"
-      delete: yes
+      delete: no
       recursive: yes
     tags: syncdotdir
 
