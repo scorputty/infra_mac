@@ -13,8 +13,8 @@ npm install npm -g
 npm update -g
 
 # Update Ruby & gems
-sudo gem update —system
-sudo gem update
+# sudo gem update —system
+# sudo gem update
 
 ## Ansible updates the Mac software using brew, cask & ansible
 # ansible-playbook provisioner.yml -i inventory.ini --ask-sudo-pass
