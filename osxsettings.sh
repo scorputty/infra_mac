@@ -171,6 +171,7 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 ###############################################################################
 
 dockutil --no-restart --remove all
+dockutil --no-restart --add "/Applications/Launchpad.app"
 dockutil --no-restart --add "/Applications/Google Chrome.app"
 dockutil --no-restart --add "/Applications/Safari.app"
 dockutil --no-restart --add "/Applications/TorBrowser.app"
