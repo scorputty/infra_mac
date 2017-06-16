@@ -11,6 +11,7 @@ homebrew_installed_packages:
   - jq
   - npm
   - packer
+  - packer-completion
   - python
   - ssh-copy-id
   - terraform
@@ -36,6 +37,7 @@ homebrew_cask_apps:
   - java
   - pycharm-ce
   - telegram
+  - the-unarchiver
   - torbrowser
   - vagrant
   - virtualbox
