@@ -166,6 +166,10 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
+# Add corporate internal domains if needed
+# defaults write com.google.Chrome AuthServerWhitelist "*.foonet, *.foo.net"
+# defaults write com.google.Chrome AuthNegotiateDelegateWhitelist "*.foonet, *.foo.net"
+
 ###############################################################################
 # Setup Dock                                                                     #
 ###############################################################################
