@@ -8,6 +8,7 @@ homebrew_installed_packages:
   - automake
   - bash-completion2
   - dockutil
+  - git-lfs
   - jq
   - npm
   - packer
