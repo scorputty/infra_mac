@@ -21,9 +21,6 @@ homebrew_installed_packages:
 #
 homebrew_taps:
   - caskroom/cask
-  - homebrew/binary
-  - homebrew/dupes
-  - homebrew/versions
 
 ## Find apps that are installable this way:
 # http://caskroom.io/search
